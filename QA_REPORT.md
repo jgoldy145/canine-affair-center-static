@@ -59,11 +59,26 @@ Status meaning:
 | `canine_affair_premium_12-8-24.pdf` | Events page | `assets/files/canine_affair_premium_12-8-24.pdf` | Needs manual review | Placeholder file created |
 | `https://www.canineaffaircenter.com/uploads/2/3/4/8/23484312/read_more_link_to_this.pdf` | Canine freestyle | External same URL | Preserved | External link preserved exactly |
 
+## Manual-review placeholders (pending recovery)
+
+- `assets/images/placeholder.svg` remains for unresolved images in home, instructors, classes, and rules/parking/mapping sections.
+- Original binaries still pending for:
+  - `reg_form_2021.doc`
+  - `filable-canine_affair_center__class_registration_form.docx`
+  - `pdffilable-canine_affair_center__class_registration_form_2016.pdf`
+  - `canine_affair_premium_12-8-24.pdf`
+- Profile/detail pages with unresolved text:
+  - `cheryl-sacerich`
+  - `mark-kocab`
+- Content areas still missing full recovery:
+  - `photo-gallery` image set
+  - `our-favorite-links` URL list
+
 ## Missing content
 
-- Full, verbatim text for many instructor profiles, gallery image sets, and some profile pages is not present in crawl extracts.
-- `our-favorite-links` page details (actual link list) were not exposed and remain pending manual recovery.
-- Direct image URLs for all gallery and page photos are not exposed by crawl output.
+- Full, verbatim text for some instructor profiles and gallery assets is not present in crawl extracts.
+- `our-favorite-links` link list remains pending manual recovery.
+- Direct gallery page photo URLs are still not exposed.
 
 ## Content intentionally removed as duplicate
 
