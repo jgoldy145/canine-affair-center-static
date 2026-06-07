@@ -26,7 +26,7 @@ Use it by opening any HTML file directly in a browser or serving the directory a
 
 ## Live developer preview (Cloudflare)
 
-- Deployed URL: `https://e2b49ea9.canine-affair-center-static.pages.dev`
+- Deployed URL: `https://6c6acb58.canine-affair-center-static.pages.dev`
 - Project: `canine-affair-center-static`
 - Deployment branch: `main`
 
