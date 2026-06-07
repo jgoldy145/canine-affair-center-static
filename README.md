@@ -26,7 +26,7 @@ Use it by opening any HTML file directly in a browser or serving the directory a
 
 ## Live developer preview (Cloudflare)
 
-- Deployed URL: `https://8644fb86.canine-affair-center-static.pages.dev`
+- Deployed URL: `https://346c8408.canine-affair-center-static.pages.dev`
 - Project: `canine-affair-center-static`
 - Deployment branch: `main`
 
@@ -34,5 +34,7 @@ Live preview command stack used:
 
 - `wrangler.cmd pages project create canine-affair-center-static --production-branch main`
 - `wrangler.cmd pages deploy . --project-name canine-affair-center-static`
+
+
 
 
