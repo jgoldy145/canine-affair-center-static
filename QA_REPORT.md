@@ -144,7 +144,7 @@ Status meaning:
 ## Cloudflare publication verification
 
 - Cloudflare Pages project: `canine-affair-center-static`
-- Deployment URL: `https://59d6fc53.canine-affair-center-static.pages.dev`
+- Deployment URL: `https://ada781a8.canine-affair-center-static.pages.dev`
 - Deployment command used:
   - `wrangler.cmd pages project create canine-affair-center-static --production-branch main`
   - `wrangler.cmd pages deploy . --project-name canine-affair-center-static`
@@ -152,7 +152,9 @@ Status meaning:
 - Deployment status (via `wrangler pages deployment list`):
   - Environment: `Production`
   - Branch: `main`
-  - Source commit: `65a5bcb`
-  - URL: `https://59d6fc53.canine-affair-center-static.pages.dev`
+  - Source commit: `327ba40`
+  - URL: `https://ada781a8.canine-affair-center-static.pages.dev`
   - Status: `Deployment complete`
 - Shell TLS client in this environment cannot reliably request pages.dev endpoints directly, but Cloudflare CLI confirms the live deployment is active.
+
+
