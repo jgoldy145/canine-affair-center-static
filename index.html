@@ -8,19 +8,24 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <a class="brand" href="index.html">Canine Affair Center</a>
-        <input id="menu-toggle" type="checkbox" />
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/images/292273772_463270262411396_3111458359805583929_n.jpg"
+            alt="Canine Affair Center logo"
+          />
+          <span>Canine Affair Center</span>
+        </a>
+        <input id="menu-toggle" class="menu-toggle" type="checkbox" />
         <label class="menu-toggle-btn" for="menu-toggle" aria-label="Open navigation">
           <span class="hamburger" aria-hidden="true">
             <span></span>
             <span></span>
             <span></span>
           </span>
-          <span class="visually-hidden">Menu</span>
         </label>
         <nav aria-label="Main navigation">
-          <a href="index.html">Home</a>
+          <a href="index.html" class="active">Home</a>
           <a href="classes.html">Classes</a>
           <a href="instructors.html">Instructors</a>
           <a href="registration.html">Registration</a>
@@ -31,33 +36,92 @@
 
     <main>
       <section class="hero">
-        <div class="container">
-          <p class="phone">440-729-9375</p>
-          <h1>Welcome to Canine Affair Center</h1>
-          <p>Canine Affair Center is Handicapped accessible.</p>
+        <div class="container hero-shell">
+          <div class="hero-copy">
+            <p class="badge">Canine Affair Center</p>
+            <p class="phone">440-729-9375</p>
+            <h1>Welcome to Canine Affair Center</h1>
+            <p>Canine Affair Center is Handicapped accessible.</p>
+            <div class="hero-actions">
+              <a class="button" href="registration.html">Student Registration</a>
+              <a class="button button-outline" href="classes.html">View Classes</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img
+              src="assets/images/653709710_35356206197299896_3337351207946290693_n.jpg"
+              alt="Dog working on agility obstacle"
+            />
+          </div>
         </div>
       </section>
 
-      <section id="services" class="section">
+      <section id="services" class="section section-muted">
         <div class="container">
           <h2>Classes and Services</h2>
-          <ul class="service-list">
-            <li><a href="classes.html#agility">Agility</a></li>
-            <li><a href="classes.html#obedience">Puppy and Adult Obedience</a></li>
-            <li><a href="classes.html#freestyle">Canine Freestyle</a></li>
-            <li><a href="classes.html#conformation">Conformation</a></li>
-            <li><a href="classes.html#grooming">Grooming &amp; Massage</a></li>
-          </ul>
+          <div class="grid">
+            <a class="card service-tile" href="classes.html#agility">
+              <h3>Agility</h3>
+              <p>Agility Classes - $100.00 - 4 Weeks.</p>
+            </a>
+            <a class="card service-tile" href="classes.html#obedience">
+              <h3>Puppy and Adult Obedience</h3>
+              <p>ALL CLASSES ARE 4-WEEK SESSIONS.</p>
+            </a>
+            <a class="card service-tile" href="classes.html#freestyle">
+              <h3>Canine Freestyle</h3>
+              <p>Sunday's at noon.</p>
+            </a>
+            <a class="card service-tile" href="classes.html#conformation">
+              <h3>Conformation</h3>
+              <p>Conformation Class: 4 weeks - $40.00.</p>
+            </a>
+            <a class="card service-tile" href="classes.html#grooming">
+              <h3>Grooming &amp; Massage</h3>
+              <p>Massage benefits and grooming call-to-action.</p>
+            </a>
+          </div>
         </div>
       </section>
 
       <section id="about" class="section">
         <div class="container">
           <h2>About Us</h2>
-          <img src="assets/images/placeholder.svg" alt="Canine Affair Center" class="content-image" />
-          <p>Address and mission details are preserved in Contact and Map sections.</p>
-          <p>11677 Chillicothe Rd., Chesterland, Ohio 44026</p>
-          <p>CANINE AFFAIR CENTER is Handicapped accessible.</p>
+          <div class="split">
+            <div>
+              <p>Address and mission details are preserved in Contact and Map sections.</p>
+              <p>11677 Chillicothe Rd., Chesterland, Ohio 44026</p>
+              <p>CANINE AFFAIR CENTER is Handicapped accessible.</p>
+              <ul>
+                <li>DO NOT SEND MAIL TO THIS ADDRESS</li>
+                <li>P.O. Box 664, Chesterland, Ohio 44026</li>
+              </ul>
+            </div>
+            <img
+              src="assets/images/657599707_35420951074158741_4879072440890548703_n.jpg"
+              alt="Dog training class"
+              class="content-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="forms" class="section section-muted">
+        <div class="container">
+          <h2>Class Registration Forms</h2>
+          <p>Different forms can be downloaded from the Registration page, but keep this quick access list here.</p>
+          <div class="form-quick-links">
+            <a class="button" href="assets/files/reg_form_2021.doc">reg_form_2021.doc</a>
+            <a class="button button-outline" href="assets/files/filable-canine_affair_center__class_registration_form.docx">
+              filable-canine_affair_center__class_registration_form.docx
+            </a>
+            <a class="button button-outline" href="assets/files/pdffilable-canine_affair_center__class_registration_form_2016.pdf">
+              pdffilable-canine_affair_center__class_registration_form_2016.pdf
+            </a>
+            <a class="button button-outline" href="assets/files/canine_affair_premium_12-8-24.pdf">
+              canine_affair_premium_12-8-24.pdf
+            </a>
+          </div>
         </div>
       </section>
 
@@ -68,17 +132,22 @@
             <h3>December 8th, 2024</h3>
             <p>C-WAGS Obedience Trial. Mark your calendars now so you don't miss out on the fun.</p>
           </article>
+          <a class="button button-outline" href="assets/files/canine_affair_premium_12-8-24.pdf">
+            canine_affair_premium_12-8-24.pdf
+          </a>
         </div>
       </section>
 
       <section id="links" class="section">
         <div class="container">
           <h2>Quick Links</h2>
-          <ul>
-            <li><a href="registration.html">Student Registration</a></li>
-            <li><a href="contact.html#directions">Directions and Parking</a></li>
-            <li><a href="classes.html">Class Schedules and Prices</a></li>
-          </ul>
+          <div class="quick-links">
+            <a href="registration.html">Student Registration</a>
+            <a href="contact.html#directions">Directions and Parking</a>
+            <a href="classes.html">Class Schedules and Prices</a>
+            <a href="contact.html#rules">Rules</a>
+            <a href="instructors.html">Instructor Profiles</a>
+          </div>
           <p><a href="https://www.canineaffaircenter.com">Original site</a></p>
         </div>
       </section>

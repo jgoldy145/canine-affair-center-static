@@ -10,7 +10,7 @@ This repository is a clean static rebuild of **Canine Affair Center** as HTML/CS
 - `registration.html` - registration materials and downloadable forms
 - `contact.html` - location, mailing address, contact form, rules, directions, and parking
 - `styles.css` - shared responsive styles
-- `assets/` - static assets and placeholders for referenced files/images
+- `assets/` - static assets, user-supplied photos, and actual registration/event files
 
 ## Content source
 
@@ -26,7 +26,7 @@ Use it by opening any HTML file directly in a browser or serving the directory a
 
 ## Live developer preview (Cloudflare)
 
-- Deployed URL: `https://346c8408.canine-affair-center-static.pages.dev`
+- Deployed URL: `https://70bcb9f3.canine-affair-center-static.pages.dev`
 - Project: `canine-affair-center-static`
 - Deployment branch: `main`
 

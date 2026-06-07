@@ -3,6 +3,16 @@
 Date: 2026-06-07  
 Source: [CONTENT_INVENTORY.md](C:/tech/CAC-website/CONTENT_INVENTORY.md)
 
+## Post-refresh checkpoint (June 7, 2026)
+
+- User-provided photos were integrated across the homepage, classes, instructors, contact, and gallery sections.
+- Mobile navigation was converted to a cleaner checkbox-driven hamburger pattern and verified through CSS breakpoints.
+- Downloadable registrations/events materials were re-fetched from live sources and replaced:
+  - `assets/files/reg_form_2021.doc`
+  - `assets/files/filable-canine_affair_center__class_registration_form.docx`
+  - `assets/files/pdffilable-canine_affair_center__class_registration_form_2016.pdf`
+  - `assets/files/canine_affair_premium_12-8-24.pdf`
+
 ## Original-page mapping audit
 
 Status meaning:
@@ -52,16 +62,16 @@ Status meaning:
 
 | Image/File | Source context | New path | Preserved? | Notes |
 |---|---|---|---|---|
-| Header/profile/gallery placeholders (`Image: Picture`) | Home, instructors, classes, grooming, parking/rules | `assets/images/placeholder.svg` | Needs manual review | Real source files/URLs were not exposed in crawl output |
-| `reg_form_2021.doc` | Student registration page | `assets/files/reg_form_2021.doc` | Needs manual review | Placeholder file created; binary source not recovered |
-| `filable-canine_affair_center__class_registration_form.docx` | Student registration form | `assets/files/filable-canine_affair_center__class_registration_form.docx` | Needs manual review | Placeholder file created |
-| `pdffilable-canine_affair_center__class_registration_form_2016.pdf` | Student registration form | `assets/files/pdffilable-canine_affair_center__class_registration_form_2016.pdf` | Needs manual review | Placeholder file created |
-| `canine_affair_premium_12-8-24.pdf` | Events page | `assets/files/canine_affair_premium_12-8-24.pdf` | Needs manual review | Placeholder file created |
+| Header/profile/gallery placeholders (`Image: Picture`) | Home, instructors, classes, grooming, parking/rules | `assets/images/` user-provided photos | Intentionally merged | No original image URLs were exposed in crawl output; local gallery photos are mapped from your provided set |
+| `reg_form_2021.doc` | Student registration page | `assets/files/reg_form_2021.doc` | Preserved | Recovered from live source endpoint |
+| `filable-canine_affair_center__class_registration_form.docx` | Student registration form | `assets/files/filable-canine_affair_center__class_registration_form.docx` | Preserved | Recovered from live source endpoint |
+| `pdffilable-canine_affair_center__class_registration_form_2016.pdf` | Student registration form | `assets/files/pdffilable-canine_affair_center__class_registration_form_2016.pdf` | Preserved | Recovered from live source endpoint |
+| `canine_affair_premium_12-8-24.pdf` | Events page | `assets/files/canine_affair_premium_12-8-24.pdf` | Preserved | Recovered from live source endpoint |
 | `https://www.canineaffaircenter.com/uploads/2/3/4/8/23484312/read_more_link_to_this.pdf` | Canine freestyle | External same URL | Preserved | External link preserved exactly |
 
 ## Manual-review placeholders (pending recovery)
 
-- `assets/images/placeholder.svg` remains for unresolved images in home, instructors, classes, and rules/parking/mapping sections.
+- `assets/images/placeholder.svg` is no longer used for page sections.
 - Original binaries still pending for:
   - `reg_form_2021.doc`
   - `filable-canine_affair_center__class_registration_form.docx`
@@ -144,7 +154,7 @@ Status meaning:
 ## Cloudflare publication verification
 
 - Cloudflare Pages project: `canine-affair-center-static`
-- Deployment URL: `https://346c8408.canine-affair-center-static.pages.dev`
+- Deployment URL: `https://70bcb9f3.canine-affair-center-static.pages.dev`
 - Deployment command used:
   - `wrangler.cmd pages project create canine-affair-center-static --production-branch main`
   - `wrangler.cmd pages deploy . --project-name canine-affair-center-static`
@@ -153,9 +163,10 @@ Status meaning:
   - Environment: `Production`
   - Branch: `main`
   - Source commit: `0575e49`
-  - URL: `https://346c8408.canine-affair-center-static.pages.dev`
+  - URL: `https://70bcb9f3.canine-affair-center-static.pages.dev`
   - Status: `Deployment complete`
 - Shell TLS client in this environment cannot reliably request pages.dev endpoints directly, but Cloudflare CLI confirms the live deployment is active.
+
 
 
 

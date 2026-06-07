@@ -8,16 +8,21 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <a class="brand" href="index.html">Canine Affair Center</a>
-        <input id="menu-toggle" type="checkbox" />
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/images/292273772_463270262411396_3111458359805583929_n.jpg"
+            alt="Canine Affair Center logo"
+          />
+          <span>Canine Affair Center</span>
+        </a>
+        <input id="menu-toggle" class="menu-toggle" type="checkbox" />
         <label class="menu-toggle-btn" for="menu-toggle" aria-label="Open navigation">
           <span class="hamburger" aria-hidden="true">
             <span></span>
             <span></span>
             <span></span>
           </span>
-          <span class="visually-hidden">Menu</span>
         </label>
         <nav aria-label="Main navigation">
           <a href="index.html">Home</a>
@@ -32,7 +37,10 @@
     <main>
       <section id="agility" class="section">
         <div class="container">
-          <h1>Agility Classes</h1>
+          <div class="section-head">
+            <h1>Agility Classes</h1>
+            <img src="assets/images/74178665_3676720855675176_2520541586752798720_n.jpg" alt="Agility class photo" />
+          </div>
           <p>Canine Affair Center Agility Classes - all classes are for Fun or Competition.</p>
           <p>Payment by first class, cash/check only.</p>
           <p>Agility Classes - $100.00 - 4 Weeks.</p>
@@ -76,7 +84,10 @@
 
       <section id="obedience" class="section">
         <div class="container">
-          <h1>Puppy and Adult Obedience Classes</h1>
+          <div class="section-head">
+            <h1>Puppy and Adult Obedience Classes</h1>
+            <img src="assets/images/508736526_30863630803224147_1543053290106935984_n.jpg" alt="Obedience class photo" />
+          </div>
           <p>ALL CLASSES ARE 4-WEEK SESSIONS.</p>
           <div class="grid">
             <article class="card">
@@ -114,7 +125,10 @@
 
       <section id="conformation" class="section">
         <div class="container">
-          <h1>Conformation</h1>
+          <div class="section-head">
+            <h1>Conformation</h1>
+            <img src="assets/images/649850994_35192066717047179_2426285569765330811_n.jpg" alt="Conformation class photo" />
+          </div>
           <p>Class schedule block: Monday and Wednesday.</p>
           <p>Contact and walk-in conformation notes are preserved.</p>
           <p>Conformation Class: 4 weeks - $40.00.</p>
@@ -125,7 +139,10 @@
 
       <section id="freestyle" class="section">
         <div class="container">
-          <h1>Canine Freestyle</h1>
+          <div class="section-head">
+            <h1>Canine Freestyle</h1>
+            <img src="assets/images/87816854_4078061818874409_3317250667176787968_n.jpg" alt="Canine Freestyle class photo" />
+          </div>
           <p>Intro to CFF Canine Freestyle, prerequisites, and principles.</p>
           <p>Sunday's at noon schedule appears in the original freestyle section.</p>
           <p>Instructor names referenced: Leila Widgren, Janet Dayton.</p>
@@ -137,13 +154,15 @@
 
       <section id="grooming" class="section">
         <div class="container">
-          <h1>Grooming &amp; Massage</h1>
-          <img src="assets/images/placeholder.svg" alt="Grooming and massage" class="content-image" />
+          <div class="section-head">
+            <h1>Grooming &amp; Massage</h1>
+            <img src="assets/images/87493389_4078061845541073_4202394099182993408_n.jpg" alt="Grooming and massage" />
+          </div>
           <p>Massage benefits and grooming call-to-action are preserved in this section.</p>
         </div>
       </section>
 
-      <section id="start-dates" class="section">
+      <section id="start-dates" class="section section-muted">
         <div class="container">
           <h1>Classes Offered / Start Dates</h1>
           <ul>
@@ -159,11 +178,16 @@
 
       <section id="rules-parking" class="section">
         <div class="container">
-          <h2>Rules</h2>
-          <p>Safety and cleanliness policy. At least rubber-soled shoes are required.</p>
-
-          <h2>Parking / Maps</h2>
-          <p>Please follow the arrows as it is one way around the building.</p>
+          <div class="split">
+            <div>
+              <h2>Rules</h2>
+              <p>Safety and cleanliness policy. At least rubber-soled shoes are required.</p>
+            </div>
+            <div>
+              <h2>Parking / Maps</h2>
+              <p>Please follow the arrows as it is one way around the building.</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -172,6 +196,38 @@
           <h2>Photo Gallery &amp; Events Captions</h2>
           <p>Photo and event captions are preserved as text sections where direct image URLs were not exposed in crawl output.</p>
           <p>Events include trials and ribbon/winner references in the original inventory.</p>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="container">
+          <h2>Gallery Images</h2>
+          <div class="gallery">
+            <figure>
+              <img src="assets/images/68536351_3414510971896167_7236134202784088064_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/466070224_28304849745768945_841613929669926007_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/487771066_1176714167733665_2484871179485013844_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/73141605_3676693095677952_674612574767022080_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/509363174_30894462150141012_1776140300169611731_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/52352415_2972541092759826_6127387931465220096_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/85217093_4078062312207693_1742358461213048832_n.jpg" alt="Training class photo" />
+            </figure>
+            <figure>
+              <img src="assets/images/74178665_3676720855675176_2520541586752798720_n.jpg" alt="Training class photo" />
+            </figure>
+          </div>
         </div>
       </section>
     </main>

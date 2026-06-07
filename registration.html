@@ -8,16 +8,21 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <a class="brand" href="index.html">Canine Affair Center</a>
-        <input id="menu-toggle" type="checkbox" />
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/images/292273772_463270262411396_3111458359805583929_n.jpg"
+            alt="Canine Affair Center logo"
+          />
+          <span>Canine Affair Center</span>
+        </a>
+        <input id="menu-toggle" class="menu-toggle" type="checkbox" />
         <label class="menu-toggle-btn" for="menu-toggle" aria-label="Open navigation">
           <span class="hamburger" aria-hidden="true">
             <span></span>
             <span></span>
             <span></span>
           </span>
-          <span class="visually-hidden">Menu</span>
         </label>
         <nav aria-label="Main navigation">
           <a href="index.html">Home</a>
@@ -33,35 +38,44 @@
       <section class="section">
         <div class="container">
           <h1>Student Registration</h1>
-          <article class="card">
-            <h2>Student Registration</h2>
-            <p>Downloadable form only page.</p>
-            <ul>
-              <li><a href="assets/files/reg_form_2021.doc">reg_form_2021.doc</a></li>
-            </ul>
-          </article>
+          <div class="grid grid-3">
+            <article class="card">
+              <h2>Current registration</h2>
+              <p>Downloadable form only page.</p>
+              <a class="button" href="assets/files/reg_form_2021.doc">reg_form_2021.doc</a>
+            </article>
+            <article class="card">
+              <h2>Legacy class registration options</h2>
+              <p>Both current and legacy form options are listed.</p>
+              <a class="button button-outline" href="assets/files/filable-canine_affair_center__class_registration_form.docx">
+                filable-canine_affair_center__class_registration_form.docx
+              </a>
+            </article>
+            <article class="card">
+              <h2>Legacy PDF form</h2>
+              <p>Alternate format for older forms.</p>
+              <a class="button button-outline" href="assets/files/pdffilable-canine_affair_center__class_registration_form_2016.pdf">
+                pdffilable-canine_affair_center__class_registration_form_2016.pdf
+              </a>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          <h2>Student Registration Form</h2>
-          <p>New students should contact us before form submission.</p>
-          <p>Both current and legacy form options are listed.</p>
-          <ul>
-            <li><a href="assets/files/filable-canine_affair_center__class_registration_form.docx">filable-canine_affair_center__class_registration_form.docx</a></li>
-            <li><a href="assets/files/pdffilable-canine_affair_center__class_registration_form_2016.pdf">pdffilable-canine_affair_center__class_registration_form_2016.pdf</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <h2>Class and Event Materials</h2>
-          <ul>
-            <li><a href="assets/files/canine_affair_premium_12-8-24.pdf">canine_affair_premium_12-8-24.pdf</a> (from events)</li>
-            <li><a href="https://www.canineaffaircenter.com/uploads/2/3/4/8/23484312/read_more_link_to_this.pdf">read_more_link_to_this.pdf</a></li>
-          </ul>
+          <div class="split">
+            <div>
+              <h2>Event materials</h2>
+              <p>Class and event materials.</p>
+              <a class="button button-outline" href="assets/files/canine_affair_premium_12-8-24.pdf">canine_affair_premium_12-8-24.pdf</a>
+            </div>
+            <div>
+              <h2>Freestyle reference PDF</h2>
+              <p>Canine freestyle support file.</p>
+              <a class="button button-outline" href="https://www.canineaffaircenter.com/uploads/2/3/4/8/23484312/read_more_link_to_this.pdf">read_more_link_to_this.pdf</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
