@@ -6,10 +6,10 @@ Source: [CONTENT_INVENTORY.md](C:/tech/CAC-website/CONTENT_INVENTORY.md)
 ## Original-page mapping audit
 
 Status meaning:
-- `Preserved` — appears directly on the target page/section.
-- `Intentionally merged` — intentionally collapsed into a designated consolidated section.
-- `Needs manual review` — content exists only as partial placeholders because source text/asset details were unavailable in crawl output.
-- `Missing` — not yet present and requires recovery.
+- `Preserved` - appears directly on the target page/section.
+- `Intentionally merged` - intentionally collapsed into a designated consolidated section.
+- `Needs manual review` - content exists only as partial placeholders because source text/asset details were unavailable in crawl output.
+- `Missing` - not yet present and requires recovery.
 
 | Original URL | New target | Status | Notes |
 |---|---|---|---|
@@ -23,7 +23,7 @@ Status meaning:
 | https://www.canineaffaircenter.com/agility-classes.html | `classes.html` (`#agility`) | Preserved | Core levels and $100/4 week classes captured |
 | https://www.canineaffaircenter.com/obedience-classes.html | `classes.html` (`#obedience`) | Preserved | Class names and listed prices/schedule points present |
 | https://www.canineaffaircenter.com/conformation-schedule.html | `classes.html` (`#conformation`) | Preserved | Schedule and prices present |
-| https://www.canineaffaircenter.com/canine-freestyle.html | `classes.html` (`#freestyle`) | Preserved | Sunday’s at noon and instructor references captured |
+| https://www.canineaffaircenter.com/canine-freestyle.html | `classes.html` (`#freestyle`) | Preserved | Sunday's at noon and instructor references captured |
 | https://www.canineaffaircenter.com/student-registration.html | `registration.html` | Preserved | reg_form_2021 link captured |
 | https://www.canineaffaircenter.com/student-registration-form.html | `registration.html` | Preserved | two form versions and contact instruction captured |
 | https://www.canineaffaircenter.com/directions-map.html | `contact.html` (`#directions`) | Intentionally merged | Address + map context preserved |
@@ -92,12 +92,12 @@ Status meaning:
 
 ## Mandatory fact checks
 
-- Phone numbers present: `440-729-9375`, `440-897-6717`, `440-488-1473` ✅
+- Phone numbers present: `440-729-9375`, `440-897-6717`, `440-488-1473`
 - Addresses present:
-  - `11677 Chillicothe Rd., Chesterland, Ohio 44026` ✅
-  - `P.O. Box 664, Chesterland, Ohio 44026` ✅
-- Prices and schedules are present (Agility, Obedience, Conformation) ✅
-- Instructor names by category are present ✅
-- Registration/download links are present ✅
-- Contact form fields are present ✅
-- Maps/parking/accessibility/rules sections are present ✅
+  - `11677 Chillicothe Rd., Chesterland, Ohio 44026`
+  - `P.O. Box 664, Chesterland, Ohio 44026`
+- Prices and schedules are present (Agility, Obedience, Conformation).
+- Instructor names by category are present.
+- Registration/download links are present.
+- Contact form fields are present.
+- Maps/parking/accessibility/rules sections are present.

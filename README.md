@@ -4,13 +4,13 @@ This repository is a clean static rebuild of **Canine Affair Center** as HTML/CS
 
 ## Structure
 
-- `index.html` – homepage and general program overview
-- `classes.html` – all class/schedule pages and rules/maps merged sections
-- `instructors.html` – instructor directory and profile summaries
-- `registration.html` – registration materials and downloadable forms
-- `contact.html` – location, mailing address, contact form, rules, directions, and parking
-- `styles.css` – shared responsive styles
-- `assets/` – static assets and placeholders for referenced files/images
+- `index.html` - homepage and general program overview
+- `classes.html` - all class/schedule pages and rules/maps merged sections
+- `instructors.html` - instructor directory and profile summaries
+- `registration.html` - registration materials and downloadable forms
+- `contact.html` - location, mailing address, contact form, rules, directions, and parking
+- `styles.css` - shared responsive styles
+- `assets/` - static assets and placeholders for referenced files/images
 
 ## Content source
 
