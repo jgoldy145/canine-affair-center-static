@@ -74,6 +74,15 @@ Status meaning:
   - `photo-gallery` image set
   - `our-favorite-links` URL list
 
+## Responsiveness check
+
+- Shared viewport and menu wiring are present on all five pages (`<meta name="viewport"...>` in each head and shared `menu-toggle` + `menu-toggle-btn` structure).
+- Shared `styles.css` provides:
+  - flexible section container width (`width: min(100%, 1000px)`);
+  - flexible class card layout (`display: grid` with `repeat(auto-fit, minmax(240px, 1fr))`);
+  - mobile collapse at `max-width: 740px` that shows menu toggle and stacks nav links.
+- Remaining quick-check note: manual visual spot-check on real devices/breakpoints is still recommended before final release.
+
 ## Missing content
 
 - Full, verbatim text for some instructor profiles and gallery assets is not present in crawl extracts.
