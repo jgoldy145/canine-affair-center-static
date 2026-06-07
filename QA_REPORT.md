@@ -83,6 +83,21 @@ Status meaning:
   - mobile collapse at `max-width: 740px` that shows menu toggle and stacks nav links.
 - Remaining quick-check note: manual visual spot-check on real devices/breakpoints is still recommended before final release.
 
+## Automated pre-release checks (run timestamp: 2026-06-07)
+
+- Core page set present: `index.html`, `classes.html`, `instructors.html`, `registration.html`, `contact.html`.
+- Required contact numbers and addresses still present.
+- Required download file placeholders and stylesheet resolve.
+- Internal links and href targets resolve in static audit.
+- Image alt attributes present for all `<img>` tags.
+- Contact form includes labeled inputs and a submit button.
+- Responsive CSS checks pass:
+  - mobile media query at `max-width: 740px`,
+  - mobile toggle selector,
+  - auto-fit card grid,
+  - responsive container width cap.
+- Overall automated check summary: PASS (no automatic hard failures).
+
 ## Missing content
 
 - Full, verbatim text for some instructor profiles and gallery assets is not present in crawl extracts.
